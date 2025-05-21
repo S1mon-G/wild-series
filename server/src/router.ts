@@ -14,5 +14,7 @@ router.get("/api/items/:id", itemActions.read);
 router.post("/api/items", itemActions.add);
 
 /* ************************************************************************* */
+import SayAction from "./modules/item/say/SayAction";
+router.get("/", SayAction.sayWelcome);
 
 export default router;
