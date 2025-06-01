@@ -1,0 +1,9 @@
+.program-poster {
+  width: 25%;
+  border-radius: 25px;
+}
+
+.program-info {
+  display: flex;
+  flex-direction: column;
+}
